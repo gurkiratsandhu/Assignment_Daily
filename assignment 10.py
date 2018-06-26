@@ -12,7 +12,6 @@ class Tiger(Animal):
         super().animal_attribute()
 t=Tiger()
 t.animal_attribute()
-print("\n***********************************\n")
 
 #What will be the output of the code
 print("What will be the output of the code")
@@ -30,7 +29,6 @@ class B(A):
 a=A()
 b=B()
 print(a.f(),b.f())
-print("\n***********************************\n")
 
 
 #Create a class Cop. Initialize its name, age , work experience and designation. Define methods to add, display and update the following details. Create another class Mission which extends the class Cop. Define method add_mission _details. Select an object of Cop and access methods of base class to get information for a particular cop and make it available for mission.
@@ -62,12 +60,12 @@ class Mission(Cop):
 
 m=Mission()
 m.add_mission_details("Assigned to Mission")
-m.add("Khushiram",19,3,"Developer")
+m.add("gurkirat",19,3,"Developer")
 m.display()
 m.update()
 m.display()
 m.add_mission_details("search")
-print("\n***********************************\n")
+
 
 
 #Create a class Shape.Initialize it with length and breadth Create the method Area. Create class rectangle and square which inherits shape and access the method Area.
